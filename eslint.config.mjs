@@ -15,13 +15,6 @@ export default defineConfig([
     },
     language: 'json/json',
   },
-  {
-    files: ['src/**/*.scss'],
-    plugins: {
-      css,
-    },
-    language: 'css/css',
-  },
 
   ...tseslint.configs.recommended,
   {
