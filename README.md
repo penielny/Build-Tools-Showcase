@@ -68,3 +68,6 @@ npm run format
 ## Contributing
 Contributions are welcome! Please open an issue or submit a pull request.
 
+## Developer
+Peniel Nyinaku @penielny
+
