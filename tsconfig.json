@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist/js",
+    "rootDir": "./src",
+    "target": "es6",
+    "strict": true,
+    "esModuleInterop": true,
+    "noImplicitAny": false
+  },
+
+  "include": ["src/**/*"],
+  "exclude": ["node_modules"]
+}
