@@ -3,7 +3,7 @@ export interface BuildTools {
   message: string;
 }
 
-export async function readBuildToolsList( filepath : string): Promise<BuildTools> {
+export async function readBuildToolsList(filepath: string): Promise<BuildTools> {
   const parsedData: BuildTools = {
     data: [],
     message: '',

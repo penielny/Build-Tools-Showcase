@@ -67,7 +67,6 @@ function renderLightModeIcon(): void {
 }
 
 function renderFooter(): void {
-
   if (!footerElement) return;
   footerElement.innerHTML = `
           <p>&copy ${moment().format('YYYY')} Build Tools List</p>
