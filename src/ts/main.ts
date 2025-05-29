@@ -11,12 +11,12 @@ export function createApp(): void {
   renderFooter();
 }
 
-function initApp(): void {
+export function initApp(): void {
   document.body.append(headerElement, mainElement, footerElement);
   document.body.classList.add('light');
 }
 
-function renderHeader(): void {
+export function renderHeader(): void {
   headerElement.innerHTML = `
         <h1>Build Tools List</h1>
         <button id="theme-toggle"></button>
@@ -66,7 +66,7 @@ function renderLightModeIcon(): void {
     `;
 }
 
-function renderFooter(): void {
+export function renderFooter(): void {
   if (!footerElement) return;
   footerElement.innerHTML = `
           <p>&copy ${moment().format('YYYY')} Build Tools List</p>
