@@ -21,7 +21,7 @@ body {
 }
 
 main {
-  width: clamp(300px, 100%, 600px);
+  width: clamp(300px, 80%, 600px);
   height: 70vh;
   border-radius: variables.$border-radius;
   padding: 1rem;
@@ -37,7 +37,7 @@ main {
 
 header {
   padding-top: 20px;
-  width: clamp(300px, 100%, 600px);
+  width: clamp(300px, 80%, 600px);
 
   @include mixins.space-between;
 
