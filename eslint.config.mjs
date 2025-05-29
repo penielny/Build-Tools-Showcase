@@ -1,5 +1,4 @@
 import json from '@eslint/json';
-import css from '@eslint/css';
 import { defineConfig } from 'eslint/config';
 import tseslint from 'typescript-eslint';
 import prettier from 'eslint-plugin-prettier';
@@ -15,17 +14,10 @@ export default defineConfig([
     },
     language: 'json/json',
   },
-  {
-    files: ['src/**/*.scss'],
-    plugins: {
-      css,
-    },
-    language: 'css/css',
-  },
 
   ...tseslint.configs.recommended,
   {
-    files: ['src/**/*.ts', 'src/**/*.tsx'],
+    files: ['src/**/*.ts'],
     languageOptions: {
       parser: tseslint.parser,
       parserOptions: {
